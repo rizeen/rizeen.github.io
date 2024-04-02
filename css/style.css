@@ -65,7 +65,8 @@ i.bi-info-circle-fill, i.bi-cart-plus-fill {
 	background-color: rgba(0,82,155,.5);
 	color: #FFFFFF;
 	height: 110px;
-	top: -145px;
+	bottom: 45px;
+	width: calc(100% - 3rem);
 }
 
 .contact-sec {
