@@ -35,5 +35,6 @@ If you're interested in contributing to the Rizeen-Zoni platform, please fork th
 
 ## Contact
 For further information or queries about the Rizeen-Zoni platform, please reach out here:
+
 Email: cml6aS5tdWpAZ21haWwuY29t (base64 encoded to avoid bots, just decode it)
 
