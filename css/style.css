@@ -2,11 +2,12 @@
 body {
 	font-family: "Poppins", sans-serif;
 }
-h4 {
+h4, a, button.nav-link, nav a.nav-link, i.menu-link {
 	color: #004A93;
 }
-a {
-	color: #004A93;
+button.nav-link {
+	border: 1px solid #004A93;
+	background-color: transparent;
 }
 .ratings span.small, .your-interests-sec p.grayish {
 	color: #1B1B1B;
@@ -56,9 +57,11 @@ i.bi-info-circle-fill, i.bi-cart-plus-fill {
 	a.small {
 		font-size: 12px;
 	}
-	.btn-navy {
-		text-decoration: underline;
-	}
+}
+
+.btn-navy {
+	text-decoration: underline;
+	text-underline-offset: 2px;
 }
 
 .trending-courses-sec .overlay-text {
