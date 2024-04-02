@@ -5,7 +5,7 @@
 ## Overview
 This project is a front-end development challenge focused on implementing a responsive and interactive web page using Bootstrap 5. The goal was to translate at least two sections of a provided Figma design into a fully functional web layout.
 
-The Rizeen-Zoni platform is an educational website offering a diverse range of courses. The project's primary focus is to provide an interactive and user-friendly experience for students to explore and enroll in courses that suit their educational needs.
+This platform is an educational website offering a diverse range of courses. The project's primary focus is to provide an interactive and user-friendly experience for students to explore and enroll in courses that suit their educational needs.
 
 ## Implemented Sections
 - **Navigation Bar**: A responsive navigation bar with contact information and a sign-in button.
