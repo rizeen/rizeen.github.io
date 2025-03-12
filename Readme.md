@@ -6,13 +6,13 @@ Welcome to my personal portfolio website repository! This site showcases my skil
 Check out the live version of my portfolio: [Your Website URL](#)
 
 ## 📌 Features
-- Responsive and mobile-friendly design 📱
-- Clean and modern UI/UX 🎨
-- Dynamic navigation menu with dropdowns 📌
-- Integrated contact section with social links 📩
-- Animated sections using AOS (Animate On Scroll) ✨
-- SEO-optimized meta tags for better visibility 🔍
-- Fast performance with optimized assets 🚀
+- ✅ Responsive and mobile-friendly design 📱
+- ✅ Clean and modern UI/UX 🎨
+- ✅ Dynamic navigation menu with dropdowns 📌
+- ✅ Integrated contact section with social links 📩
+- ✅ Animated sections using AOS (Animate On Scroll) ✨
+- ✅ SEO-optimized meta tags for better visibility 🔍
+- ✅ Fast performance with optimized assets 🚀
 
 ## 🛠️ Technologies Used
 - **Frontend**: HTML, CSS, Bootstrap, JavaScript
