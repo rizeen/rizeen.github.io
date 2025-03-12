@@ -1,182 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Rizeen Mujawar - Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Rizeen Mujawar - Portfolio showcasing web development projects, UI designs, and digital marketing achievements.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Rizeen</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  ======================================================== -->
 </head>
 
-<body>
-<nav class="navbar navbar-expand-lg navbar-light py-4">
-    <div class="container-fluid px-md-4">
-        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <i class="bi bi-list d-none d-lg-block menu-link h2 m-0"></i>
-        <img src="images/logo.png" class="ms-md-5 img-logo" alt="Logo" />
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav w-100 justify-content-around">
-                <li class="nav-item">
-                    <a class="nav-link" href="tel:+18884950680"><i class="bi bi-telephone-fill me-2"></i>+1 888-495-0680</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><img src="images/nav-contact-icon.png" class="me-2" alt="Contact" />Contact Us</a>
-                </li>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Kelly</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
             </ul>
-        </div>
-        <button class="nav-link fw-bold rounded-2 px-2 py-1">Sign in</button>
-    </div>
-</nav>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-<div class="topsec1-collage pt-4 pt-sm-5 p-5 text-white">
-    <div class="mt-4 mt-sm-0 py-5 p-sm-5 col-11 col-md-9 col-lg-7 col-xxl-5">
-        <h1 class="fw-normal mb-4 mt-sm-3">Hi, I'm Rizeen Mujawar,</h1>
-        <h1 class="fw-bold mb-4">Your Web Development Expert!</h1>
-        <button type="button" class="btn btn-yellow rounded-pill px-4 py-1 px-sm-5 py-sm-2 mb-lg-5">Hire Me!</button>
-    </div>
-</div>
+      <div class="header-social-links">
+        <a href="https://wa.me/+919702932933"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:rizi.muj@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.linkedin.com/in/rizeen-mujawar/"><i class="bi bi-linkedin"></i></a>
+      </div>
 
-<div class="top-courses-sec container-fluid text-center p-5 my-5">
-    <img src="images/top-courses-logo.png" alt="Top Courses" />
-    <h4 class="fw-bold mt-4 mb-3">Explore My Projects</h4>
-    <div class="d-flex justify-content-center flex-wrap pb-1">
-        <span class="px-2">Web Development</span>
-        <span class="px-2">UI/UX Design</span>
-        <span class="px-2">Digital Marketing</span>
-        <span class="px-2">E-commerce Solutions</span>
-        <span class="px-2">SEO Optimization</span>
-        <span class="px-2">Mobile Apps</span>
-        <span class="px-2">WordPress Customization</span>
     </div>
-    <div class="top-courses-row d-flex pt-5 text-start">
-        <div class="w-25 mx-3">
-            <img class="w-100" src="images/top-courses-1.png" alt="Project 1" />
-            <h6 class="fw-bold text-start m-0 mt-2 pt-1">Project 1 Title</h6>
-            <small>Project Description</small>
-            <div class="ratings">
-                <img src="images/ratings.png" alt="Ratings" />
-                <span class="small">(1.2K)</span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <a class="small" href="#!">View Details<i class="bi bi-info-circle-fill"></i></a>
-                <button type="button" class="btn btn-navy p-2">Explore Now!<i class="bi bi-cart-plus-fill"></i></button>
-            </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2>Rizeen Mujawar</h2>
+            <p>I'm a professional web developer from Mumbai</p>
+            <a href="about.html" class="btn-get-started">About Me</a>
+          </div>
         </div>
-        <div class="w-25 mx-3">
-            <img class="w-100" src="images/top-courses-2.png" alt="Project 2" />
-            <h6 class="fw-bold text-start m-0 mt-2 pt-1">Project 2 Title</h6>
-            <small>Project Description</small>
-            <div class="ratings">
-                <img src="images/ratings.png" alt="Ratings" />
-                <span class="small">(1.2K)</span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <a class="small" href="#!">View Details<i class="bi bi-info-circle-fill"></i></a>
-                <button type="button" class="btn btn-navy p-2">Explore Now!<i class="bi bi-cart-plus-fill"></i></button>
-            </div>
-        </div>
-        <div class="w-25 mx-3">
-            <img class="w-100" src="images/top-courses-3.png" alt="Project 3" />
-            <h6 class="fw-bold text-start m-0 mt-2 pt-1">Project 3 Title</h6>
-            <small>Project Description</small>
-            <div class="ratings">
-                <img src="images/ratings.png" alt="Ratings" />
-                <span class="small">(1.2K)</span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <a class="small" href="#!">View Details<i class="bi bi-info-circle-fill"></i></a>
-                <button type="button" class="btn btn-navy p-2">Explore Now!<i class="bi bi-cart-plus-fill"></i></button>
-            </div>
-        </div>
-        <div class="w-25 mx-3">
-            <img class="w-100" src="images/top-courses-4.png" alt="Project 4" />
-            <h6 class="fw-bold text-start m-0 mt-2 pt-1">Project 4 Title</h6>
-            <small>Project Description</small>
-            <div class="ratings">
-                <img src="images/ratings.png" alt="Ratings" />
-                <span class="small">(1.2K)</span>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <a class="small" href="#!">View Details<i class="bi bi-info-circle-fill"></i></a>
-                <button type="button" class="btn btn-navy p-2">Explore Now!<i class="bi bi-cart-plus-fill"></i></button>
-            </div>
-        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://wa.me/+919702932933"><i class="bi bi-whatsapp"></i></a>
+        <a href="tel:+919702932933"><i class="bi bi-telephone-fill"></i></a>
+        <a href="mailto:rizi.muj@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.linkedin.com/in/rizeen-mujawar/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://stackoverflow.com/users/8782141/rizeen"><i class="bi bi-stack-overflow"></i></a>
+        <a href="https://github.com/rizeen"><i class="bi bi-github"></i></a>
+  
+      </div>
+      <div class="credits">
+        Designed by <a href="mailto:rizi.muj@gmail.com">Rizeen</a>
+      </div>
     </div>
-</div>
 
-<div class="trending-courses-sec container-fluid text-center p-5 pt-0 mb-5">
-    <h4 class="fw-bold mb-3">Featured Projects</h4>
+  </footer>
 
-    <div class="row gx-5 pt-1 text-start">
-        <div class="col-md-6 position-relative">
-            <div class="w-100">
-                <img class="w-100 mb-3 mb-md-0" src="images/trending-courses-main.png" alt="Featured Project" />
-                <div class="position-absolute overlay-text d-flex align-items-center">
-                    <h2 class="fw-bold m-0 ps-3">Featured Project Title</h2>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 pt-3 pt-md-0">
-            <h5 class="fw-bold">Project Overview</h5>
-            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button type="button" class="btn btn-navy p-2">Explore More!<i class="bi bi-arrow-right"></i></button>
-        </div>
-    </div>
-</div>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<div class="top-brand-sec container-fluid text-center p-5 mt-5 mb-5">
-    <img src="images/top-brand-logo.png" alt="Top Brand" />
-    <h4 class="fw-bold mt-4 mb-3">Our Valuable Clients</h4>
-    <div class="d-flex justify-content-center flex-wrap">
-        <div class="px-4 my-3"><img src="images/top-brand-1.png" alt="Client 1" /></div>
-        <div class="px-4 my-3"><img src="images/top-brand-2.png" alt="Client 2" /></div>
-        <div class="px-4 my-3"><img src="images/top-brand-3.png" alt="Client 3" /></div>
-        <div class="px-4 my-3"><img src="images/top-brand-4.png" alt="Client 4" /></div>
-        <div class="px-4 my-3"><img src="images/top-brand-5.png" alt="Client 5" /></div>
-        <div class="px-4 my-3"><img src="images/top-brand-6.png" alt="Client 6" /></div>
-    </div>
-</div>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-<footer class="container-fluid text-center p-5">
-    <div class="row">
-        <div class="col-md-3 mt-4 mt-md-0">
-            <img src="images/logo-footer.png" alt="Footer Logo" />
-        </div>
-        <div class="col-md-3 mt-4 mt-md-0">
-            <h5 class="fw-bold">Quick Links</h5>
-            <ul class="list-unstyled small">
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">About Us</a></li>
-                <li><a href="#!">Services</a></li>
-                <li><a href="#!">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 mt-4 mt-md-0">
-            <h5 class="fw-bold">Social Media</h5>
-            <ul class="list-unstyled small">
-                <li><a href="#!"><i class="bi bi-facebook"></i> Facebook</a></li>
-                <li><a href="#!"><i class="bi bi-twitter"></i> Twitter</a></li>
-                <li><a href="#!"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-                <li><a href="#!"><i class="bi bi-instagram"></i> Instagram</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3 mt-4 mt-md-0">
-            <h5 class="fw-bold">Contact Us</h5>
-            <p class="small"><i class="bi bi-telephone-fill"></i> +1 888-495-0680</p>
-            <p class="small"><i class="bi bi-envelope-fill"></i> info@example.com</p>
-            <p class="small"><i class="bi bi-geo-alt-fill"></i> Address Line, City, Country</p>
-        </div>
-    </div>
-    <p class="small mt-5 mb-0">© 2024 Rizeen Mujawar. All rights reserved.</p>
-</footer>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-RuG9WH05qdwpaQT1w2QmbPy5z1cafeYcG7jGV9bUm1qNn2EIlS7eW5IkGtSo76lA" crossorigin="anonymous"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
