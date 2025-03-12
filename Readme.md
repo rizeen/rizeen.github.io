@@ -19,3 +19,14 @@ Check out the live version of my portfolio: [Your Website URL](#)
 - **Animations & Effects**: AOS, Swiper.js, Glightbox
 - **Icons & Fonts**: Bootstrap Icons, Google Fonts
 - **Contact Integration**: WhatsApp, LinkedIn, Email
+
+## Build and Run Instructions  
+
+### Prerequisites  
+- A modern web browser  
+- Internet access to load Bootstrap, Google Fonts, and external assets  
+
+### Building and Running the Project  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/rizeen/your-repo-name.git
